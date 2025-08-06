@@ -10,7 +10,7 @@ public interface Parser {
     /**
      * Parses a url and returns the links found
      * @param url URL to fetch and parse
-     * @return Pair of input url and links (converted to absolute links) on the page
+     * @return Pair of input url and links (converted to absolute link) on the page
      */
     Pair<String, Set<String>> parse(final String url) throws IOException;
 }
